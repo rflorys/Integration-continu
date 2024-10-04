@@ -1,4 +1,4 @@
-#titre Intégration continu
+# Intégration continu
 
 
 ### Détails de la configuration
