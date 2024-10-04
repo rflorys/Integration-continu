@@ -1,30 +1,5 @@
-Bien sûr ! Voici le README formaté en code :
+#titre Intégration continu
 
-```markdown
-# Vagrant Debian Setup
-
-Ce projet utilise Vagrant pour créer une machine virtuelle (VM) basée sur Debian Buster (Debian 10) et installer Git automatiquement.
-
-## Prérequis
-
-Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
-
-- [Vagrant](https://www.vagrantup.com/downloads)
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (ou un autre fournisseur de VM compatible)
-
-## Configuration
-
-Le fichier de configuration de Vagrant (`Vagrantfile`) est structuré comme suit :
-
-```ruby
-Vagrant.configure("2") do |config|
-  config.vm.box = "debian/buster64"
-  config.vm.provision "shell", inline: <<-SHELL
-      apt-get update
-      apt-get install -y git
-  SHELL
-end
-```
 
 ### Détails de la configuration
 
