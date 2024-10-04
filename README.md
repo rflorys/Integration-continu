@@ -6,12 +6,12 @@ Vagrant.configure("2") do |config|
 	SHELL
 end
 
-
+------------------------
 
 | config.vm.box = "debian/buster64" | Permet de créer une vm debian/ Vas recuperer sur vagrant cloud la box debian (version : v10.20231211.1)
 
 
-
+------------------------
 
 
 
