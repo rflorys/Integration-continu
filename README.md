@@ -1,5 +1,4 @@
-# Intégration continu
-
+# Intégration continu - Florys Robin
 
 ### Détails de la configuration
 
